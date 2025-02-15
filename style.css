@@ -2,6 +2,8 @@ body,html{
     height:100%;
     width:100%;
     z-index:10;
+    overflow-x: hidden;
+    max-width:100%;
  
 }
 header{
@@ -181,4 +183,15 @@ footer{
         left:35%;
     }
 
+
 }
+@media (max-width:480px){
+    #text2{
+        position: absolute;
+        font-size:20px;
+        top:36%;
+        left:20%;
+        top:40%;
+        width:800px;
+    }  
+} 
