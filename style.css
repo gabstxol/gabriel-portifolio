@@ -194,4 +194,8 @@ footer{
         top:40%;
         width:800px;
     }  
+    #text-1{
+        position: absolute;
+        left:30%;
+    }
 } 
